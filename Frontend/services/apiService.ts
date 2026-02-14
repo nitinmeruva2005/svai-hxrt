@@ -1,7 +1,7 @@
 import { User, ExchangeRequest, Message, ExchangeFeedback } from '../types';
 import { suggestSkillsDirect, generateRoadmapDirect } from './mistralDirectService';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://svai-hxrt.onrender.com/api';
 
 // Helper to simulate delay for "real" feel (reduced for better performance)
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
