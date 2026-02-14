@@ -8,7 +8,7 @@ import { suggestSkills, generateRoadmap } from './ai/mistralSkills.js';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors({ origin: "https://svai-hxrt.vercel.app/", credentials : ture }));
+app.use(cors({ origin: "https://svai-hxrt.vercel.app/", credentials : true }));
 app.use(express.json());
 
 // Helper mappers
